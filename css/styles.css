@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+/* styling */
+table { 
+    border: 5px solid black; 
+    border-radius: 10px;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 100px
+} 
+/* button */
+input[type="button"] { 
+    width: 100%; 
+    padding: 20px 40px; 
+    background: linear-gradient(rgb(50, 105, 50), grey);
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+} 
+/* text block */
+input[type="text"] { 
+    padding: 20px 30px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    border: 2px solid black; 
+    cursor: pointer;
+} 
+/* footer */
+footer{
+    max-height: 300px;
+    max-width: 100%;
+    bottom: 0;
+    position: absolute;
+}
